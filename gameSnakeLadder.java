@@ -2,7 +2,8 @@
 public class gameSnakeLadder {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to the Game");
+		int dice = (int)Math.floor(Math.random() * 10 ) % 6+1;
+        System.out.println("dice output =" +dice);
 
 	}
 
